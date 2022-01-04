@@ -1,0 +1,16 @@
+{
+  "parent": "api:trigger/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "nbt": "{TriggerUsingItem:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "api:trigger/handler/state/using_item"
+  }
+}

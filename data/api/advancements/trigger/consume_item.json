@@ -1,0 +1,17 @@
+{
+    "parent": "api:trigger/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+            "item": {
+              "nbt": "{TriggerConsumeItem:1b}"
+            }
+          }    
+      }
+    },
+    "rewards": {
+      "function": "api:trigger/handler/consume_item"
+    }
+  }
+  

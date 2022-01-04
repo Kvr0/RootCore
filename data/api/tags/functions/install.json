@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "api:calc/install",
+        "api:trigger/install"
+    ]
+}
