@@ -1,5 +1,5 @@
 
 # Functionテスト用ディレクトリを除外
 data/test/
-
-*.py
+# 作業用Pythonファイルを除外
+_*.py
