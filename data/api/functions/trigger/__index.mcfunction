@@ -23,7 +23,7 @@
     #declare tag/function api:trigger/attack
     #declare tag/function api:trigger/hurt
     #declare tag/function api:trigger/kill
-    #declare tag/function api:trigger/killed
+    #declare tag/function api:trigger/die
     ## State
     #declare tag/function api:trigger/state/falling
     #declare tag/function api:trigger/state/swimming

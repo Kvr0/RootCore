@@ -15,6 +15,7 @@
 
 ## Callback
 function #api:trigger/attack
+execute as @e[tag=AttackedEntity] at @s run function #api:trigger/hurt
 
 ## Reset Trigger
 advancement revoke @s only api:trigger/attack
