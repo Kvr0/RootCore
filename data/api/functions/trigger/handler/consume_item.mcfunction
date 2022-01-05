@@ -4,7 +4,16 @@
 #
 # @within advancement api:trigger/consume_item 
 
-tellraw @s "* Consume Item"
+## Load ItemData
+function #oh_my_dat:please
+data modify storage api: Trigger.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.Item
+
+## Callback
+function #api:trigger/consume_item
 
 ## Reset Trigger
-advancement revoke @s only api:trigger/consume_item 
+advancement revoke @s only api:trigger/consume_item
+scoreboard players reset @s Trigger.ConsumeItem.SplashPotion
+advancement revoke @s only api:trigger/consume_item_splash_potion
+scoreboard players reset @s Trigger.ConsumeItem.LingeringPotion
+advancement revoke @s only api:trigger/consume_item_lingering_potion

@@ -4,7 +4,8 @@
 #
 # @within advancement api:trigger/offhand
 
-tellraw @s "* Offhand"
+## Callback
+function #api:trigger/offhand
 
 ## Reset Trigger
 advancement revoke @s only api:trigger/offhand

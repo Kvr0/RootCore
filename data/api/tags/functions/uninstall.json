@@ -2,6 +2,8 @@
     "replace": false,
     "values": [
         "api:calc/uninstall",
+        "api:nbtbuffer/uninstall",
+        "api:entityid/uninstall",
         "api:trigger/uninstall"
     ]
 }

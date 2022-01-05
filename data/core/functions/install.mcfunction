@@ -4,8 +4,8 @@
 #
 # @private
 
-#> インストールに関するデータを設定
-    data modify storage core: Installed set value {}
-
 #> Callback: Install
     function #core:install
+
+#> インストールに関するデータを設定
+    data modify storage core: Installed set value {}

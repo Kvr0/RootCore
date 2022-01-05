@@ -2,6 +2,8 @@
     "replace": false,
     "values": [
         "api:calc/install",
+        "api:nbtbuffer/install",
+        "api:entityid/install",
         "api:trigger/install"
     ]
 }

@@ -5,6 +5,12 @@
 # @within tag/function api:uninstall
 
 #> Score Trigger
+    ## ConsumeItem
+    scoreboard objectives remove Trigger.ConsumeItem.SplashPotion
+    scoreboard objectives remove Trigger.ConsumeItem.LingeringPotion
+    ## Using Item
+    scoreboard objectives remove Trigger.UsingItem.CarrotOnAStick
+    scoreboard objectives remove Trigger.UsingItem.WarpedFungusOnAStick
     ## Jump
     scoreboard objectives remove Trigger.Jump
     ## State

@@ -4,5 +4,4 @@
 #
 # @within tag/function api:tick
 
-## State End
-
+execute as @a at @s run function api:trigger/item_check/

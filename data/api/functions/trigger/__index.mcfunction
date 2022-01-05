@@ -16,6 +16,15 @@
 
 #> Trigger Callback
 # @public
+    #declare tag/function api:trigger/consume_item
+    #declare tag/function api:trigger/using_item
+    #declare tag/function api:trigger/jump
+    #declare tag/function api:trigger/offhand
+    #declare tag/function api:trigger/attack
+    #declare tag/function api:trigger/hurt
+    #declare tag/function api:trigger/kill
+    #declare tag/function api:trigger/killed
+    ## State
     #declare tag/function api:trigger/state/falling
     #declare tag/function api:trigger/state/swimming
     #declare tag/function api:trigger/state/sprinting

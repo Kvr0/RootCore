@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "api:tick"
+        "api:entityid/tick",
+        "api:trigger/tick"
     ]
 }

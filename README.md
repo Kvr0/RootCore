@@ -13,8 +13,12 @@
     * `Temporary`- 一時変数
     * `Global`- グローバル変数
     * `Random` - 乱数を管理
+  * `NBTBuffer`- NBTデータ制御
+  * `EntityID`- EntityID
   * `Trigger`- トリガーとコールバックを管理
     * アイテムの消費
+      * Splash Potion
+      * Lingering Potion
     * オフハンド切り替え
     * 攻撃
     * 被攻撃
@@ -28,6 +32,8 @@
       * しゃがみ
         * ダブルスニーク
       * アイテムの使用
+        * Carrot on a Stick
+        * Warped Fungus on a Stick
 * `Assets`- 追加機能の管理
   * `Entity`- 追加エンティティの管理
     * `Summon`- 召喚

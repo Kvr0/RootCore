@@ -4,7 +4,7 @@
 #
 # @within advancement api:trigger/jump
 
-tellraw @s "* Jump"
+function #api:trigger/jump
 
 ## Reset Trigger
 scoreboard players reset @s Trigger.Jump
