@@ -25,4 +25,4 @@
     scoreboard players set @a Trigger.Flying.Distance -1
 
 #> インストールに関するデータを設定
-    data modify storage core: Installed.API.Trigger set value {}
+    execute unless data storage core: Installed.API.Trigger run data modify storage core: Installed.API.Trigger set value {}

@@ -23,4 +23,4 @@
     kill @e[tag=new,limit=1]
 
 #> インストールに関するデータを設定
-    data modify storage core: Installed.API.Calc set value {}
+    execute unless data storage core: Installed.API.Calc run data modify storage core: Installed.API.Calc set value {}

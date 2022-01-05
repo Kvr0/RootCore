@@ -11,4 +11,4 @@
     setblock -30000000 2 43885 oak_sign replace
 
 #> インストールに関するデータを設定
-    data modify storage core: Installed.API.NBTBuffer set value {}
+    execute unless data storage core: Installed.API.NBTBuffer run data modify storage core: Installed.API.NBTBuffer set value {}

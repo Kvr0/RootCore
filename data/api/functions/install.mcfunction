@@ -8,4 +8,4 @@
     function #api:install
     
 #> インストールに関するデータを設定
-    data modify storage core: Installed.API set value {}
+    execute unless data storage core: Installed.API run data modify storage core: Installed.API set value {}

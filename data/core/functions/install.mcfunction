@@ -8,4 +8,4 @@
     function #core:install
 
 #> インストールに関するデータを設定
-    data modify storage core: Installed set value {}
+    execute unless data storage core: Installed run data modify storage core: Installed set value {}
