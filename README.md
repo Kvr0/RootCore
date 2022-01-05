@@ -55,4 +55,11 @@
 root : entity
 
 root : player
+└ API
+  └ Trigger
+    └ Item
+      ├ id
+      ├ Count
+      ├ Slot
+      └ tag
 ```
