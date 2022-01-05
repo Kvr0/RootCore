@@ -1,3 +1,5 @@
 
 # Functionテスト用ディレクトリを除外
 data/test/
+
+*.py
