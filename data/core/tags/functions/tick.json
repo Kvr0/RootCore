@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "globalclock:tick",
         "api:tick"
     ]
 }

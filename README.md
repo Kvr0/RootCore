@@ -7,6 +7,11 @@
   * `Install`- インストール機能を管理
   * `Uninstall`- アンインストール機能を管理
   * `Tick`- Tick処理の管理
+* `GlobalClock`- 標準時計を制御
+* `Logging`- ログシステム
+  * `Event`
+  * `Warning`
+  * `Error`
 * `API`- 機能の提供を管理
   * `Calc`- 計算を補助
     * `Const` - 定数値を管理
