@@ -40,21 +40,6 @@
       * `Using Item`- アイテムの使用
         * `Carrot on a Stick`
         * `Warped Fungus on a Stick`
-* `Assets`- 追加機能の管理
-  * `Entity`- 追加エンティティの管理
-    * `Summon`- 召喚
-    * `Delete`- 削除
-    * `Tick`- Tick処理
-    * `Callback`- コールバック
-      * `Install`
-      * `Remove`
-      * `Summon`
-      * `Death`
-      * `Attack`
-      * `Hurt`
-      * `Tick`
-  * `Item`- 追加アイテムの管理
-  * `Block`- 追加ブロックの管理
 
 ## エンティティデータ
 ```
@@ -68,31 +53,4 @@ root : player
       ├ Count: int
       ├ Slot: int
       └ tag: Compound
-```
-
-## Asset データ
-```
-root : entity
-├ id: ResourceLocation
-└ tag: Compound
-  ├ Name: Compound
-  ├ Tags: List[String]
-  ├ Items: Compound
-  │ ├ MainHand: Compound
-  │ ├ OffHand: Compound
-  │ ├ Head: Compound
-  │ ├ Body: Compound
-  │ ├ Legs: Compound
-  │ └ Feet: Compound
-  ├ DropRate: Compound
-  │ ├ MainHand: int
-  │ ├ OffHand: int
-  │ ├ Head: int
-  │ ├ Body: int
-  │ ├ Legs: int
-  │ └ Feet: int
-  ├ DeathLoot: ResourceLocation
-  └ Combat: Compound
-    MaxHealth
-    Health
 ```
