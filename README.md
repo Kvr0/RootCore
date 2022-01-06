@@ -21,30 +21,31 @@
   * `NBTBuffer`- NBTデータ制御
   * `EntityID`- EntityID
   * `Trigger`- トリガーとコールバックを管理
-    * アイテムの消費
-      * Splash Potion
-      * Lingering Potion
-    * オフハンド切り替え
-    * 攻撃
-    * 被攻撃
-    * 討伐
-    * ジャンプ
-    * 状態変化
-      * 落下
-      * 水泳
-      * 走り
-      * 飛翔
-      * しゃがみ
-        * ダブルスニーク
-      * アイテムの使用
-        * Carrot on a Stick
-        * Warped Fungus on a Stick
+    * `Consume Item`- アイテムの消費
+      * `Splash Potion`
+      * `Lingering Potion`
+    * `OffHand`- オフハンド切り替え
+    * `Attack`- 攻撃
+    * `Hurt`- 被攻撃
+    * `Kill`- 討伐
+    * `Die`- 被討伐
+    * `Jump`- ジャンプ
+    * `State`- 状態変化
+      * `Falling`- 落下
+      * `Swimming`- 水泳
+      * `Sprinting`- 走り
+      * `Flying`- 飛翔
+      * `Sneaking`- しゃがみ
+        * `Double Sneak`- ダブルスニーク
+      * `Using Item`- アイテムの使用
+        * `Carrot on a Stick`
+        * `Warped Fungus on a Stick`
 * `Assets`- 追加機能の管理
   * `Entity`- 追加エンティティの管理
     * `Summon`- 召喚
-    * `Remove`- 削除
+    * `Delete`- 削除
     * `Tick`- Tick処理
-    * `Trigger`- トリガー
+    * `Callback`- コールバック
       * `Install`
       * `Remove`
       * `Summon`
@@ -60,11 +61,38 @@
 root : entity
 
 root : player
-└ API
-  └ Trigger
-    └ Item
-      ├ id
-      ├ Count
-      ├ Slot
-      └ tag
+└ API: Compound
+  └ Trigger: Compound
+    └ Item: Compound
+      ├ id: ResourceLocation
+      ├ Count: int
+      ├ Slot: int
+      └ tag: Compound
+```
+
+## Asset データ
+```
+root : entity
+├ id: ResourceLocation
+└ tag: Compound
+  ├ Name: Compound
+  ├ Tags: List[String]
+  ├ Items: Compound
+  │ ├ MainHand: Compound
+  │ ├ OffHand: Compound
+  │ ├ Head: Compound
+  │ ├ Body: Compound
+  │ ├ Legs: Compound
+  │ └ Feet: Compound
+  ├ DropRate: Compound
+  │ ├ MainHand: int
+  │ ├ OffHand: int
+  │ ├ Head: int
+  │ ├ Body: int
+  │ ├ Legs: int
+  │ └ Feet: int
+  ├ DeathLoot: ResourceLocation
+  └ Combat: Compound
+    MaxHealth
+    Health
 ```
