@@ -3,6 +3,7 @@
     "values": [
         "api:calc/uninstall",
         "api:nbtbuffer/uninstall",
+        "api:set_block/uninstall",
         "api:entityid/uninstall",
         "api:trigger/uninstall"
     ]

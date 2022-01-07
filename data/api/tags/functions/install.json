@@ -3,6 +3,7 @@
     "values": [
         "api:calc/install",
         "api:nbtbuffer/install",
+        "api:set_block/install",
         "api:entityid/install",
         "api:trigger/install"
     ]

@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "api:set_block/tick",
         "api:entityid/tick",
         "api:trigger/tick"
     ]

@@ -19,6 +19,7 @@
     * `Global`- グローバル変数
     * `Random` - 乱数を管理
   * `NBTBuffer`- NBTデータ制御
+  * `SetBlock`- ブロック設置を制御
   * `EntityID`- EntityID
   * `Trigger`- トリガーとコールバックを管理
     * `Consume Item`- アイテムの消費
