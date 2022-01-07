@@ -14,3 +14,5 @@ function api:set_block/set_item
 
 data modify block -30000000 0 43885 Items[0] set from storage set_block: Item
 item replace entity @s weapon.mainhand from block -30000000 0 43885 container.0
+
+data modify storage set_block: Item set value {}
