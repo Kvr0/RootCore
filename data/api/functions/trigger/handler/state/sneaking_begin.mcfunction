@@ -4,6 +4,10 @@
 #
 # @within advancement api:trigger/state/sneaking_begin
 
+## Load ItemData
+function #oh_my_dat:please
+data modify storage api: Trigger.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.Item
+
 ## Double Sneak
 execute if score @s Trigger.Sneaking.Pasted matches ..2 run function #api:trigger/state/double_sneak
 execute if score @s Trigger.Sneaking.Pasted matches ..2 run scoreboard players set @s Trigger.Sneaking.Pasted 3
