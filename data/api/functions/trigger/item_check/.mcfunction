@@ -9,6 +9,7 @@ function #oh_my_dat:please
 
 ## Reset Buffer
     function api:nbtbuffer/reset_shulker0
+    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.PrevItem set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.Item
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.Item set value {}
 
 ## OffHand
