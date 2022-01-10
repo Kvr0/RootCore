@@ -9,6 +9,7 @@ function api:nbtbuffer/reset_shulker0
 
 item replace block -30000000 0 43885 container.0 with stone
 data modify block -30000000 0 43885 Items[0] set from storage api: Item
+data modify block -30000000 0 43885 Items[0].Slot set value 0
 
 ## Hotbar
 execute if data storage api: {Item:{Slot:0}} run item replace entity @s hotbar.0 from block -30000000 0 43885 container.0
