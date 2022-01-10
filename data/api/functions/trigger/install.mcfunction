@@ -8,6 +8,10 @@
     ## Consume Item
     scoreboard objectives add Trigger.ConsumeItem.SplashPotion used:splash_potion
     scoreboard objectives add Trigger.ConsumeItem.LingeringPotion used:lingering_potion
+    scoreboard objectives add Trigger.ConsumeItem.Bucket used:bucket
+    scoreboard objectives add Trigger.ConsumeItem.WaterBucket used:water_bucket
+    scoreboard objectives add Trigger.ConsumeItem.LavaBucket used:lava_bucket
+    scoreboard objectives add Trigger.ConsumeItem.PowderSnowBucket used:powder_snow_bucket
     ## Using Item
     scoreboard objectives add Trigger.UsingItem.CarrotOnAStick used:carrot_on_a_stick
     scoreboard objectives add Trigger.UsingItem.WarpedFungusOnAStick used:warped_fungus_on_a_stick

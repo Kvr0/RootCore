@@ -8,7 +8,11 @@
     ## ConsumeItem
     scoreboard objectives remove Trigger.ConsumeItem.SplashPotion
     scoreboard objectives remove Trigger.ConsumeItem.LingeringPotion
-    ## Using Item
+    scoreboard objectives remove Trigger.ConsumeItem.Bucket
+    scoreboard objectives remove Trigger.ConsumeItem.WaterBucket
+    scoreboard objectives remove Trigger.ConsumeItem.LavaBucket
+    scoreboard objectives remove Trigger.ConsumeItem.PowderSnowBucket
+## Using Item
     scoreboard objectives remove Trigger.UsingItem.CarrotOnAStick
     scoreboard objectives remove Trigger.UsingItem.WarpedFungusOnAStick
     ## Jump

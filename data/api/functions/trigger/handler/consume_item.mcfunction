@@ -17,3 +17,11 @@ scoreboard players reset @s Trigger.ConsumeItem.SplashPotion
 advancement revoke @s only api:trigger/consume_item_splash_potion
 scoreboard players reset @s Trigger.ConsumeItem.LingeringPotion
 advancement revoke @s only api:trigger/consume_item_lingering_potion
+scoreboard players reset @s Trigger.ConsumeItem.Bucket
+advancement revoke @s only api:trigger/consume_item_bucket
+scoreboard players reset @s Trigger.ConsumeItem.WaterBucket
+advancement revoke @s only api:trigger/consume_item_water_bucket
+scoreboard players reset @s Trigger.ConsumeItem.LavaBucket
+advancement revoke @s only api:trigger/consume_item_lava_bucket
+scoreboard players reset @s Trigger.ConsumeItem.PowderSnowBucket
+advancement revoke @s only api:trigger/consume_item_lingering_potion
