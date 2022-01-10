@@ -2,6 +2,10 @@
 #
 # @private
 
+#> Global Var
+# @public
+    #declare storage api:
+
 #> NBTBuffer
 # @public
     #alias vector Shulker0 -30000000 0 43885
