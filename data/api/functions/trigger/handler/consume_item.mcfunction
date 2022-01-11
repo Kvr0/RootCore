@@ -5,8 +5,7 @@
 # @within advancement api:trigger/consume_item 
 
 ## Load ItemData
-function #oh_my_dat:please
-data modify storage api: Trigger.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.Item
+function api:trigger/load_itemdata
 
 ## Callback
 function #api:trigger/consume_item
@@ -24,4 +23,4 @@ advancement revoke @s only api:trigger/consume_item_water_bucket
 scoreboard players reset @s Trigger.ConsumeItem.LavaBucket
 advancement revoke @s only api:trigger/consume_item_lava_bucket
 scoreboard players reset @s Trigger.ConsumeItem.PowderSnowBucket
-advancement revoke @s only api:trigger/consume_item_lingering_potion
+advancement revoke @s only api:trigger/consume_item_powder_snow_bucket

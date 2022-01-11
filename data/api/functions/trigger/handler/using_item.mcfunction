@@ -5,8 +5,11 @@
 # @within advancement api:trigger/using_item
 
 ## Load ItemData
-function #oh_my_dat:please
-data modify storage api: Trigger.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.Item
+    function #oh_my_dat:please
+    data modify storage api: Trigger.HandItem.Off.PrevItem set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Off.PrevItem
+    data modify storage api: Trigger.HandItem.Off.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Off.Item
+    data modify storage api: Trigger.HandItem.Main.PrevItem set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Main.PrevItem
+    data modify storage api: Trigger.HandItem.Main.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Main.Item
 
 ## Callback
 function #api:trigger/using_item

@@ -1,12 +1,11 @@
 {
-    "parent": "api:trigger/root",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:using_item"
-      }
-    },
-    "rewards": {
-      "function": "api:trigger/handler/using_item"
+  "parent": "api:trigger/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item"
     }
+  },
+  "rewards": {
+    "function": "api:trigger/handler/using_item"
   }
-  
+}

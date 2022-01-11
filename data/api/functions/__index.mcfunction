@@ -5,6 +5,7 @@
 #> Global Var
 # @public
     #declare storage api:
+    #declare storage api.__temp__:
 
 #> Callback
 # @public

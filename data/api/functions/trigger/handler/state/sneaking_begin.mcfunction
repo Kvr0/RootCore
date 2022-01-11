@@ -5,8 +5,11 @@
 # @within advancement api:trigger/state/sneaking_begin
 
 ## Load ItemData
-function #oh_my_dat:please
-data modify storage api: Trigger.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.Item
+    function #oh_my_dat:please
+    data modify storage api: Trigger.PrevItem set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Off.PrevItem
+    data modify storage api: Trigger.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Off.Item
+    execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Main.Item.id run data modify storage api: Trigger.PrevItem set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Main.PrevItem
+    execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Main.Item.id run data modify storage api: Trigger.Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].API.Trigger.HandItem.Main.Item
 
 ## Double Sneak
 execute if score @s Trigger.Sneaking.Pasted matches ..2 run function #api:trigger/state/double_sneak
