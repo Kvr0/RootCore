@@ -41,6 +41,7 @@
       * `Using Item`- アイテムの使用
         * `Carrot on a Stick`
         * `Warped Fungus on a Stick`
+  * `Array` - 配列制御
 
 ## エンティティデータ
 ```
