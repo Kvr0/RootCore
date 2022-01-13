@@ -472,3 +472,6 @@
     scoreboard players set $int.max Const 2147483647
     scoreboard players set $min Const -2147483648
     scoreboard players set $max Const 2147483647
+
+#> Other
+    scoreboard players set $31743 Const 31743
