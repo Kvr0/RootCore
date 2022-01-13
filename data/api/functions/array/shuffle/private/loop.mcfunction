@@ -8,7 +8,7 @@
     function api:array/move/_
 
 ## Push Value
-    data modify storage array: Temp.Value0 set from storage array: Buffer[-1]
+    data modify storage array: Temp.Value0 append from storage array: Buffer[-1]
     data remove storage array: Buffer[-1]
 
 ## Loop
