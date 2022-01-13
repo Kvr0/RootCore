@@ -1,14 +1,15 @@
 #> api:array/move/_
 #     配列を移動
 # @input storage array:
+#   Num: int
 #   Buffer: any[]
 # @output storage array:
-#   Num: int
 #   Buffer: any[]
 # @api
 
 ## Get List Size
-    execute store success score $Size Temporary if data storage array: Buffer[]
+    execute store result score $Size Temporary if data storage array: Buffer[]
+
 ## Get Move Num
     execute store result score $Num Temporary run data get storage array: Num 1
 
