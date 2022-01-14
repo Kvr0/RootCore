@@ -5,6 +5,7 @@
         "api:nbtbuffer/install",
         "api:set_block/install",
         "api:entityid/install",
-        "api:trigger/install"
+        "api:trigger/install",
+        "api:relative_pos/private/install"
     ]
 }

@@ -4,6 +4,10 @@
 #
 # @within tag/function core:install
 
+#> 汎用エンティティ
+    kill 0-0-0-0-0
+    summon marker 0.0 0.0 0.0 {UUID:[I;0,0,0,0]}
+
 #> Callback: Install
     function #api:install
     

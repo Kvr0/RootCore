@@ -5,6 +5,7 @@
         "api:nbtbuffer/uninstall",
         "api:set_block/uninstall",
         "api:entityid/uninstall",
-        "api:trigger/uninstall"
+        "api:trigger/uninstall",
+        "api:relative_pos/private/uninstall"
     ]
 }

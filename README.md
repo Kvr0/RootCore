@@ -42,6 +42,7 @@
         * `Carrot on a Stick`
         * `Warped Fungus on a Stick`
   * `Array` - 配列制御
+  * `RelativeGroupPos` - 相対位置制御
 
 ## エンティティデータ
 ```
