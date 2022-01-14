@@ -4,6 +4,9 @@
 #
 # @within tag/function core:uninstall
 
+#> 汎用エンティティ
+    kill 0-0-0-0-0
+
 #> Callback: Uninstall
     function #api:uninstall
 
