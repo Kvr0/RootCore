@@ -5,4 +5,4 @@
 # @within tag/function core:tick
 
 #> API
-    function #api:tick
+    execute if data storage core: Installed.API run function #api:tick
