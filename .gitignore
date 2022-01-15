@@ -2,4 +2,4 @@
 # Functionテスト用ディレクトリを除外
 data/test/
 # 作業用Pythonファイルを除外
-_*.py
+-*.py
