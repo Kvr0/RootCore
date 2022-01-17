@@ -1,4 +1,4 @@
-#> rootcore:__index
+#> rootcore:index
 # @private
 
 #> Core
