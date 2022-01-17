@@ -12,3 +12,7 @@
     #declare tag/function api:install
     #declare tag/function api:uninstall
     #declare tag/function api:tick
+
+#> Team
+#@public
+    #declare team no_collision
