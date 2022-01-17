@@ -8,6 +8,10 @@
     kill 0-0-0-0-0
     summon marker 0.0 0.0 0.0 {UUID:[I;0,0,0,0]}
 
+#> 当たり判定無効化
+    team add no_collision
+    team modify no_collision collisionRule never
+
 #> Callback: Install
     function #api:install
     

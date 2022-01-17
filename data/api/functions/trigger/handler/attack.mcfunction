@@ -9,22 +9,16 @@
 
 ## Search Attacked Entity
 ### Attacking Entity
-    tag @e remove LastAttackingEntity
-    tag @e[tag=AttackingEntity] add LastAttackingEntity
-
     tag @e remove AttackingEntity
     tag @s add AttackingEntity
 ### Attacked Entity
-    tag @e remove LastAttackedEntity
-    tag @e[tag=AttackedEntity] add LastAttackedEntity
-
     tag @e remove AttackedEntity
     execute as @e[tag=!AttackingEntity,tag=EntityID.Have,distance=..150] run function api:trigger/handler/filters/attack/0
     function api:trigger/handler/find_attack_entityid
 
 ## Callback
-execute as @e[tag=AttackingEntity] unless entity @s[tag=LastAttackingEntity] at @s run function #api:trigger/attack
-execute as @e[tag=AttackedEntity] unless entity @s[tag=LastAttackedEntity] at @s run function #api:trigger/hurt
+execute as @e[tag=AttackingEntity] at @s run function #api:trigger/attack
+execute as @e[tag=AttackedEntity] at @s run function #api:trigger/hurt
 
 ## Reset Trigger
 advancement revoke @s only api:trigger/attack
