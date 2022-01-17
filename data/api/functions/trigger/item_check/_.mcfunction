@@ -1,4 +1,4 @@
-#> api:trigger/item_check/
+#> api:trigger/item_check/_
 #
 # トリガー用アイテムチェック
 #

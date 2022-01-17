@@ -1,4 +1,4 @@
-#> logging:print/
+#> logging:print/_
 #
 # Logの表示
 #
